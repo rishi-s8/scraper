@@ -64,7 +64,7 @@ if __name__ == "__main__":
                     infos[-1]["gender"] = option.text
             
             value = driver.find_element_by_id("birthday").get_attribute("value")
-            infos[-1]["birth"] = value
+            infos[-1]["birth_year"] = value
 
     print(infos)
 
